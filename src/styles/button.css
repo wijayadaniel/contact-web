@@ -1,0 +1,31 @@
+.btn {
+  padding: 12px 15px;
+  border-radius: 3px;
+  border: 0;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+}
+
+.primary-btn {
+  background: #0f6ab4;
+}
+
+.cancel-btn {
+  color: #ef5350;
+  background: white;
+  padding: 12px 15px;
+  border-radius: 3px;
+  border: 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn {
+  color: #ef5350;
+}
+
+.edit-btn { 
+  color: #0f6ab4;
+  margin-left: 1em;
+}

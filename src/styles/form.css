@@ -1,0 +1,32 @@
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px
+}
+
+.form-input {
+  border: 1px solid #ced4da;
+  display: block;
+  width: calc(100% - 1.5em);
+  padding: .75em;
+  border-radius: .25rem;
+  font-size: 14px;
+}
+
+.form-input.invalid-input {
+  border: 1px solid #ef5350;
+}
+
+.form-field.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-field.image-container .invalid {
+  margin-top: 10px;
+}

@@ -1,0 +1,70 @@
+.modal-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container .modal-title {
+  margin: 0
+}
+
+.modal-container .modal-content {
+  width: 500px;
+  background: white;
+  padding: 2em;
+  position: relative;
+}
+
+.modal-container .modal-content .modal-close-icon {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  cursor: pointer;
+}
+
+.modal-container .modal-content .form-input {
+  margin-bottom: 5px;
+}
+
+.modal-image-preview {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  object-fit: cover;
+}
+
+.modal-image-placeholder {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  background: #F6F6F6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.modal-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-button-container .delete-btn {
+  margin-left: 1em;
+  background: #ef5350;
+  color: white;
+}
+
+.modal-icon {
+  text-align: center;
+}
